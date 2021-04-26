@@ -1,0 +1,24 @@
+.mynav {
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.mynav:hover,
+.mynav.active {
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(0, 0, 0)
+}
+
+@media screen and (max-width: 991px) {
+    .mynav {
+        margin-top: 10px;
+    }
+}
