@@ -1,0 +1,89 @@
+.mybox {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.85);
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+}
+
+.mybox h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.mybox .inputBox {
+    position: relative;
+}
+
+.mybox .inputBox input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.mybox .inputBox label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.mybox .inputBox input:focus~label,
+.mybox .inputBox input:valid~label {
+    top: -25px;
+    left: 0;
+    color: #03a9f4;
+}
+
+.mybox input[type="submit"] {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.mybox p {
+    position: relative;
+    top: -45px;
+    left: 100px;
+    color: rgb(180, 180, 180);
+}
+
+.mybox a {
+    position: relative;
+    top: -65px;
+    left: 100px;
+}
+
+@media screen and (max-width: 700px) {
+    .mybox {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .mybox {
+        width: 320px;
+    }
+}
