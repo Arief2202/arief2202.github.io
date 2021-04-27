@@ -1,0 +1,268 @@
+
+body {
+    min-height: 100vh;
+    background-image: url("../img/space.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#text1{
+
+    font-size: 10em;
+    color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    font-weight: 600;
+    text-shadow:2px 2px 20px rgba(255, 255, 255, 0.507);
+}
+#text2{
+
+    font-size: 10em;
+    color: white;
+    position: absolute;
+    transform: translate(-51%, -51%);
+    top: 50%;
+    left: 50%;
+    font-weight: 600;
+    mix-blend-mode:soft-light;
+}
+#text3{
+
+    font-size: 10em;
+    color: white;
+    position: absolute;
+    transform: translate(-52%, -52%);
+    top: 50%;
+    left: 50%;
+    font-weight: 600;
+    mix-blend-mode:soft-light;
+    
+}
+.title p{
+    font-size: 2.5em;
+    color: white;
+    position: absolute;
+    transform: translate(-50%, 100%);
+    top: 50%;
+    left: 50%;
+    font-weight: 600;
+    text-shadow:2px 2px 15px black;   
+}
+.keepupdate{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 200%;
+    left: 50%; 
+    width:100%;
+    color: white;
+    background: rgb(0, 98, 255);
+    padding: 170px 200px;
+}
+.keepupdate::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to top,rgb(0, 98, 255),transparent);
+    width:100%;
+    height: 150px;
+    left: 50%;
+    top: -11%;
+    position: absolute;
+}
+.learning::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to top,rgb(169, 28, 235),transparent);
+    width:100%;
+    height: 150px;
+    left: 50%;
+    top: -12%;
+    position: absolute;
+}
+.Belajar::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to bottom,rgb(169, 28, 235),transparent);
+    width:100%;
+    height: 150px;
+    left: 50%;
+    top: 13%;
+    position: absolute;
+}
+
+.image{
+    position: relative;
+    width: 50vh;
+    top: -15vh;
+}
+.keepupdate h1{
+    font-weight: 600;
+    font-size: 4em;
+}
+.keepupdate p{
+    font-size: 1.2em;
+}
+.learning h1{
+    font-weight: 600;
+    font-size: 4em;
+}
+.learning p{
+    font-size: 1.2em;
+}
+.Belajar h1{
+    font-weight: 600;
+    font-size: 4em;
+}
+.Belajar p{
+    font-size: 1.2em;
+}
+.image2{
+    position: relative;
+    width: 40vh;
+    top: -5vh;
+    left: 15vh;
+}
+.learning{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 270%;
+    left: 50%; 
+    width:100%;
+    height:80vh;
+    color: white;
+    background: rgb(169, 28, 235);
+    padding: 170px 200px;
+}
+.Belajar{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 350%;
+    left: 50%; 
+    width:100%;
+    height: 80vh;
+    color: white;
+    background: rgb(0, 98, 255);
+    padding: 170px 200px;
+}
+.joinus{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 409.2%;
+    left: 50%; 
+    width:100%;
+    height: 20vh;
+    color: white;
+    background: rgba(255, 255, 255,0.5);
+    padding: 120px 200px;
+}
+.joinus a{
+    font-weight: 400;
+    font-size: 1.8em;
+    color: white;
+    background:rgba(0, 98, 255,0.8);
+    padding: 20px 80px;
+    border-radius: 40px;
+
+}
+
+@media screen and (max-width: 890px) {
+    #text1 {
+    font-size: 7em;
+    color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    font-weight: 600;
+    }
+    #text2{
+    font-size: 7em;
+    color: white;
+    position: absolute;
+    transform: translate(-51%, -51%);
+    top: 50%;
+    left: 50%;
+    font-weight: 600;
+    mix-blend-mode:soft-light;
+    }
+    #text3{
+    font-size: 7em;
+    color: white;
+    position: absolute;
+    transform: translate(-52%, -52%);
+    top: 50%;
+    left: 50%;
+    font-weight: 600;
+    mix-blend-mode:soft-light;
+    }
+    .title p{
+        font-size: 1.5em;
+        color: white;
+        position: absolute;
+        transform: translate(-50%, 100%);
+        top: 50%;
+        left: 50%;
+        font-weight: 600;
+        text-shadow:2px 2px 15px black;
+    }
+}
+@media screen and (max-width: 1260px){
+    .learning{
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 300%;
+        left: 50%; 
+        width:100%;
+        color: white;
+        background: rgb(169, 28, 235);
+        padding: 170px 200px;
+    }
+
+}
+
+@media screen and (max-width: 750px){
+    .learning{
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 320%;
+        left: 50%; 
+        width:100%;
+        color: white;
+        background: rgb(169, 28, 235);
+        padding: 170px 200px;
+    }
+    .image{
+            
+        position: relative;
+        display: flex;
+        width: 100%;
+        top: -50vh;
+
+    }
+}
+
+@media screen and (max-width: 960px){
+    .image{
+        position: relative;
+        width: 40vh;
+        top: -10vh;
+        
+        padding: -10px;
+        
+    }
+}
+
+@media screen and (max-width: 890px){
+    .image{
+        position: relative;
+        width: 30vh;
+        top: 5vh;
+        
+        
+    }
+} 
