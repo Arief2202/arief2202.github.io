@@ -6,11 +6,13 @@
 }
 
 body {
-    background-image: url("../img/space.jpg");
+    min-height: 100vh;
+    background-image: url("../img/Background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+}
+
+body .banner{
+    background: rgba(0, 0, 0, 0.4);
 }
