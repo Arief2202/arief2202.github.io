@@ -165,14 +165,14 @@
     background: rgb(0, 98, 255);
     padding: 200px 150px;
 }
-.banner::before{
+/* .banner::before{
     content:'';
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 100px;
     background:linear-gradient(to top,rgb(0, 98, 255), transparent);
-}
+} */
 .Content1 .Content{
     display: flex;
     justify-content: space-between;
